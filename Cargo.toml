@@ -3,6 +3,30 @@ name = "bench_mgmt"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "variables"
+path = "src/playground/variables.rs"
+
+[[bin]]
+name = "types"
+path = "src/playground/types.rs"
+
+[[bin]]
+name = "errors"
+path = "src/playground/errors.rs"
+
+[[bin]]
+name = "iterators"
+path = "src/playground/iterators.rs"
+
+[[bin]]
+name = "traits"
+path = "src/playground/traits.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
